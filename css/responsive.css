@@ -1,0 +1,117 @@
+
+@media screen and (max-width: 768px){
+    header .logo{
+        width: 15%;
+    }
+    header nav{
+        position: absolute;
+        top: 0;
+        right: -60%;
+        width: 60%;
+        height: 100vh;      
+        background: var(--gris);
+        transition: .5s;
+        overflow: auto;
+    }
+    header nav::-webkit-scrollbar{
+        display: none;
+    }
+    nav.togglemenu{
+        right: 0;
+        box-shadow: 5px 0px 25px 16px rgba(0, 0, 0, 0.4);
+    }
+    header .BtnMenu{
+        margin-right: 24px;
+        display: block;
+        background: transparent;
+        border: none;
+        cursor: pointer; 
+        font-size: 1.2rem; 
+        color: var(--amarillo);            
+    }
+    header .CloseMenu{
+        position: absolute;
+        display: block;
+        background: transparent;
+        padding: 10px;
+        border: none;
+        cursor: pointer; 
+        top: 20px;
+        right: 16px;
+        color: var(--amarillo); 
+        font-size: 1.2rem; 
+    }
+    header .BtnMenu::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: "\f0c9";
+    }
+    header .CloseMenu::before{
+        font-family: "Font Awesome 5 Free"; 
+        font-weight: 900; 
+        content: "\f00d";
+        color: var(--amarillo);
+    }
+
+    header nav ul{
+        padding: 0;
+        margin-top: 75px;
+        margin-right: 0;
+        text-align: start;
+    }
+    header nav li{
+        display: block;
+    }
+    header nav a{
+        display: block;
+        padding: 10px 10px 10px 20px;
+        color: var(--amarillo);
+    }
+    .descInicio .infoInicio h1{
+        font-size: 3.5rem;
+    }
+    .hab{
+        margin: 50px auto;
+    }
+    .perfil{
+        flex-direction: column;
+        width: 90%;
+    }
+    .perfil .fotoPerfil{
+        width: 25%;
+        margin-bottom: 40px;
+    }
+    .python{
+        flex-direction: column;
+        text-align: center;
+        margin: auto auto 60px auto;
+        padding: 20px;
+    }
+    .python .imagenInicio{
+        width: 100%;        
+    }
+    .contact .info{
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 480px){
+    header .logo{
+        width: 20%;
+    }
+    .descInicio{
+        height: 80vh;
+    }
+    .descInicio .infoInicio h1{
+        font-size: 2rem;
+    }
+    .perfil .fotoPerfil{
+        width: 40%;
+    }
+}
+@media only screen and (min-height: 300px) and (max-width: 800px) and (orientation: landscape) {
+    .python img {
+        width: 60%;        
+    }
+}
