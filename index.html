@@ -15,36 +15,66 @@
         <img class="logo" src="img/logo.png" alt="Logo">
         <nav id="menuB" class="menu">  
             <ul>                           
-                <li><a href="#" >Inicio</a></li>
-                <li><a href="#AcercaDeMi" >Acerca de mí</a></li>
-                <li><a href="#Habilidades">Habilidades</a></li>
-                <li><a href="portafolio.html" target="_blank">Portafolio</a></li>                            
-                <li><a href="#Formcontact">Contacto</a></li> 
+                <li>
+                    <a href="#" >
+                        <span class="icon"><i class="fas fa-home"></i></span>
+                        <span class="title">Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#AcercaDeMi" >
+                        <span class="icon"><i class="fas fa-user"></i></span>
+                        <span class="title">Acerca de mí</span>
+                    </a>
+                </li>                
+                <li>
+                    <a href="#Habilidades">
+                        <span class="icon"><i class="fas fa-cogs"></i></span>
+                        <span class="title">Habilidades</span>
+                    </a>
+                </li>                         
+                <li>
+                    <a href="#Formcontact">
+                        <span class="icon"><i class="fas fa-id-card"></i></span>
+                        <span class="title">Contacto</span>
+                    </a>
+                </li> 
                 <button id="BtnClose" class="CloseMenu"></button>               
             </ul>                     
         </nav>
         <button id="Btnburger" class="BtnMenu"></button>   
     </header>
-    <div class="descInicio">
+    <div class="btnC derecha">
+        <a class="btnContacto" href="https://wa.link/3slllk" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+        <a class="btnContacto" href="mailto:luercegue31@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+      </div>
+    <section class="descInicio">
+        <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
+            <path d="M1200 120L0 16.48 0 0 1200 0 1200 120z" class="shape-fill"></path>
+        </svg>
         <div class="infoInicio">
             <h1>Mi portafolio web</h1>
         </div>
-    </div>
-    <h1 class="hab" id="AcercaDeMi">Acerca de mí: </h1>
-    <section class="perfil">        
-        <img class="fotoPerfil" src="img/foto.png" alt="foto de perfil">
-        <p class="descripcion">Mi nombre es Luis Ernesto Cerón Guerrero, soy ingeniero de software y desarrollador web Junior con conocimientos en Python, HTML5, CSS3, JavaScript, Bootstrap, MySQL,
-            Adobe illustrator, Photoshop, Premiere pro, Adobe XD con facilidad de aprendizaje y actualización permanente. 
-            Apasionado del desarrollo y diseño web, busco empezar mi carrera aportando sólidos conocimientos académicos de desarrollo web 
-            (Python, HTML5, CSS3, JavaScript).
-        </p>
     </section>
-
-    <h1 class="hab" id="Habilidades">Mis habilidades: </h1>   
+    <section class="seccionPerfil">
+        <h1 class="acerca" id="AcercaDeMi">Acerca de mí: </h1>
+        <div class="perfil">        
+            <img class="fotoPerfil" src="img/foto.png" alt="foto de perfil">
+            <p class="descripcion">Mi nombre es Luis Ernesto Cerón Guerrero, soy ingeniero de software y desarrollador web Junior con conocimientos en Python, HTML5, CSS3, JavaScript, Bootstrap, MySQL,
+                Adobe illustrator, Photoshop, Premiere pro, Adobe XD con facilidad de aprendizaje y actualización permanente. 
+                Apasionado del desarrollo y diseño web, busco empezar mi carrera aportando sólidos conocimientos académicos de desarrollo web 
+                (Python, HTML5, CSS3, JavaScript).
+            </p>
+        </div>
+    </section>
+    
     <section class="habilidades" >
+        <h2 class="hab" id="Habilidades">Mis habilidades: </h2>   
         <div class="python">
             <div class="acerca izq">
                 <h1>Programación en Python.</h1> <i class="fa-brands fa-python"></i>
+                <h1 class="linksPort">Link portafolio: </h1>
+                <a class="linkPort" href="https://github.com/Luchoc97/ejerciciosPython" target="_blank"><i class="fa-solid fa-square-up-right"></i></a>
             </div>
             <div class="imagenInicio derecha">
                 <!--<img src="img/Python_Outline.svg" alt="diseñador grafico" width="100%">-->
@@ -52,7 +82,6 @@
             </div>
         </div>
 
-        <img class="barraIzq" src="img/barraIzq.png" alt="barra de decoracion" width="70%">
 
         <div class="python">
             <div class="imagenInicio izq">
@@ -63,22 +92,23 @@
                 <i class="fab fa-html5 "></i>
                 <i class="fab fa-css3-alt "></i>
                 <i class="fab fa-js-square "></i>
+                <h1 class="linksPort">Link portafolio: </h1>
+                <a class="linkPort" href="https://codepen.io/Luchoc97/pens/public?cursor=ZD0wJm89MSZwPTEmdj02NjQyNDQ4Nw==" target="_blank"><i class="fa-solid fa-square-up-right"></i></a>
+                <a class="linkPort" href="https://blue-theme.netlify.app/" target="_blank"><i class="fa-solid fa-square-up-right"></i></a>
             </div>
         </div>
-
-        <img class="barraDer" style="position: absolute; right: 0;" src="img/barraDerecha.png" alt="barra de decoracion" width="70%">
 
         <div class="python">
             <div class="acerca izq">
                 <h1>Manejo de consultas SQL.</h1>
                 <i class="fa-solid fa-database"></i>
+                <h1 class="linksPort">Link portafolio: </h1>
+                <a class="linkPort" href="https://github.com/Luchoc97/PythonSQL" target="_blank"><i class="fa-solid fa-square-up-right"></i></a>
             </div>
             <div class="imagenInicio derecha">
                 <img src="img/Data and settings_Flatline.svg" alt="ilustracion de base de dato" width="100%">    
             </div>
         </div>
-
-        <img class="barraIzq" src="img/barraIzq.png" alt="" width="70%">
 
         <div class="python">
             <div class="imagenInicio izq">
@@ -87,6 +117,9 @@
             <div class="acerca derecha">
                 <h1>Diseño gráfico.</h1>
                 <i class="fa-solid fa-bezier-curve"></i>
+                <h1 class="linksPort">Link portafolio: </h1>
+                <a class="linkPort" href="https://www.freepik.es/autor/luercegue31" target="_blank"><i class="fa-solid fa-square-up-right"></i></a>
+                <a class="linkPort" href="https://drive.google.com/file/d/1bXkznik1LIQB8A5YDpTyOnXZzxkaj1IO/view?usp=sharing" target="_blank"><i class="fa-solid fa-square-up-right"></i></a>
             </div>
         </div>
     </section>

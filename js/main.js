@@ -16,20 +16,6 @@ ScrollReveal().reveal('.abajo', {
     distance: '50px',
     origin: 'bottom',
 });
-ScrollReveal().reveal('.barraIzq', { 
-    delay: 800, 
-    //reset: true, 
-    distance: '300px',
-    origin: 'left',
-    mobile: false,
-});
-ScrollReveal().reveal('.barraDer', { 
-    delay: 800, 
-    //reset: true, 
-    distance: '300px',
-    origin: 'right',
-    mobile: false,
-});
 
 //----------------------------------------------------------------------------
 const Btn =  document.getElementById("bt");    

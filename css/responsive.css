@@ -1,4 +1,11 @@
-
+@media screen and (max-width: 1000px) and (orientation: landscape){
+    .descInicio svg{
+        height: 110px;
+    }
+    .python .imagenInicio{
+        width: 40%;        
+    }
+} 
 @media screen and (max-width: 768px){
     header .logo{
         width: 15%;
@@ -9,7 +16,7 @@
         right: -60%;
         width: 60%;
         height: 100vh;      
-        background: var(--gris);
+        background: var(--azul);
         transition: .5s;
         overflow: auto;
     }
@@ -27,7 +34,7 @@
         border: none;
         cursor: pointer; 
         font-size: 1.2rem; 
-        color: var(--amarillo);            
+        color: var(--verde);            
     }
     header .CloseMenu{
         position: absolute;
@@ -63,32 +70,45 @@
         display: block;
     }
     header nav a{
-        display: block;
+        display: flex;
+        align-items: center;
         padding: 10px 10px 10px 20px;
-        color: var(--amarillo);
     }
+    header nav a .fas{
+        display: inline;
+        margin-right: 15px;
+    }
+    .icon{
+        position: relative;
+        display: block;
+        min-width: 50px;
+        text-align: center;
+    }
+    .title{
+        position: relative;
+        display: block;
+    }  
     .descInicio .infoInicio h1{
         font-size: 3.5rem;
     }
-    .hab{
-        margin: 50px auto;
+    .seccionPerfil .acerca{
+        margin-bottom: 40px;
     }
-    .perfil{
+    .seccionPerfil  .perfil{
         flex-direction: column;
         width: 90%;
     }
-    .perfil .fotoPerfil{
+    .seccionPerfil .perfil .fotoPerfil{
         width: 25%;
         margin-bottom: 40px;
     }
     .python{
         flex-direction: column;
         text-align: center;
-        margin: auto auto 60px auto;
-        padding: 20px;
+        padding: 50px 20px;
     }
     .python .imagenInicio{
-        width: 100%;        
+        width: 60%;        
     }
     .contact .info{
         flex-direction: column;
@@ -97,11 +117,11 @@
     }
 }
 @media screen and (max-width: 480px){
-    header .logo{
-        width: 20%;
-    }
     .descInicio{
-        height: 80vh;
+        height: 100vh;
+    }
+    .descInicio svg{
+        height: 100px;
     }
     .descInicio .infoInicio h1{
         font-size: 2rem;
