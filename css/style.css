@@ -209,15 +209,9 @@ header .BtnMenu, header .CloseMenu{
 }
 .contact{
     display: flex;
-    justify-content: space-evenly;
-    align-items: center;
+    justify-content: center;
     background: var(--azulOscuro);
     padding: 90px 0;
-}
-.contact .info{
-    display: flex;
-    width: 40%;
-    justify-content: space-between;
 }
 .contact .info h4{
     color: var(--blanco);
